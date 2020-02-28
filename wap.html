@@ -1053,6 +1053,20 @@
 				$("#login_modal").hide()
 				$("body").css({ "overflow-y": "auto", "overflow-x": "hidden" })
 			})
+			if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+//			    window.location.href = "wap.html";
+			} else {
+			     window.location.href = "index.html";
+			}
+//			window.addEventListener('load', function() {
+//				window.addEventListener('resize', function() {
+//					console.log(window.innerWidth);
+//					if (window.innerWidth<768) {
+//						window.location.href="wap.html"
+//					}
+//				})
+//
+//			})
 		})
 	</script>
 	<script>

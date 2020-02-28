@@ -22,9 +22,11 @@ $(function(){
     },function(){
     	$(this).css({"font-size":"30px"})	
     })
-     $(".footer_right ul li .iconfont").hover(function(){
-    	$(this).css({"font-size":"35px","transition":"all .1s ease"})	
-    },function(){
-    	$(this).css({"font-size":"30px"})	
-    })
+//   $(".footer_right ul li .iconfont").hover(function(){
+//  	$(this).css({"font-size":"35px","transition":"all .1s ease"})	
+//  },function(){
+//  	$(this).css({"font-size":"30px"})	
+//  })
+     
+
 })
