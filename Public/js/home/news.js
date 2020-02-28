@@ -1,6 +1,6 @@
 $(function(){
     $("#menu ul li a").hover(function () { 
-        $(this).addClass("bor").siblings().removeClass("bor")
+        $(this).addClass("bor")
     },function(){
         $(this).removeClass("bor")
     })
@@ -16,5 +16,15 @@ $(function(){
     $(".menuNav a").click(function () {
         $(".menuMove").slideUp()
         $("body").css({ "overflow-y": "auto", "overflow-x": "hidden" })
+    })
+    $(".navClass_head ul li .iconfont").hover(function(){
+    	$(this).css({"font-size":"35px","transition":"all .1s ease"})	
+    },function(){
+    	$(this).css({"font-size":"30px"})	
+    })
+     $(".footer_right ul li .iconfont").hover(function(){
+    	$(this).css({"font-size":"35px","transition":"all .1s ease"})	
+    },function(){
+    	$(this).css({"font-size":"30px"})	
     })
 })
