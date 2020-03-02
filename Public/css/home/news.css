@@ -265,6 +265,12 @@ footer{
     .navClass_head .iconfont{
     	font-size: 25px;
     }
+    .emails div:first-child{
+        margin-right:30px;
+    }
+    .footer_right ul li {
+        margin: 0 16px 0 0 !important;
+    }
 }
 @media (min-width: 795px){
     .footer_left{
@@ -347,13 +353,13 @@ footer{
 
     }
     .footer_left{
-        margin-left: initial;
+        margin:0 30px;
     }
     .footer_left h3{
         height: 40px;
     }
     .footer_right{
-        margin-top: 80px;
+        margin:80px 30px 0;
         line-height: 30px;
         border-top: 1px solid #fff;
         padding-top: 20px;
