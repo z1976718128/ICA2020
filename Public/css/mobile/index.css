@@ -124,12 +124,12 @@
 }
 .new_a{
 	/* width: 373px; */
-	/* height: 400px; */
+	height: 540px;
 	display: block;
 	background: #000;
 }
 .news_p{
-	width:321px;
+	/* width:321px; */
 	font-size:22px;
 	font-family:Myriad Pro;
 	font-weight:600;
