@@ -46,12 +46,20 @@ body{
 }
 .news_p{
 	width:321px;
+	height: 93px;
 	font-size:22px;
 	font-family:Myriad Pro;
 	font-weight:600;
 	color:rgba(255,255,255,1);
 	line-height:30px;
 	margin:24px 0 30px 12px ;
+	display: -webkit-box;
+    overflow: hidden;
+    white-space: normal !important;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical
 }
 .news_time{
 	margin:0 0 19px 12px ;
@@ -1005,7 +1013,10 @@ a:hover {
 .image_arrow {
 	line-height: 25px;
 	margin-top: 15px;
-	position: relative;	 left: -158px;	 top: 20px;}
+	position: relative;
+	 left: -158px;
+	 top: 20px;
+}
 
 #modal_info,
 #modal_speaker_info {

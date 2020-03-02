@@ -124,18 +124,26 @@
 }
 .new_a{
 	/* width: 373px; */
-	height: 540px;
+	height: 480px;
 	display: block;
 	background: #000;
 }
 .news_p{
 	/* width:321px; */
+	height:93px;
 	font-size:22px;
 	font-family:Myriad Pro;
 	font-weight:600;
 	color:rgba(255,255,255,1);
 	line-height:30px;
 	margin:24px 0 30px 12px ;
+	display: -webkit-box;
+    overflow: hidden;
+    white-space: normal !important;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical
 }
 .follow_line{
 	border-top: 5px solid #fff;
